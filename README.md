@@ -1,5 +1,5 @@
 # PCA-vs.-PcoA-comparison-figure-by-python
-#overlapped feature: matrix decomposition plus distinguished: co-variance vs. distance matrix
+#overlapped feature: matrix decomposition plus distinguished: co-variance vs. distance matrix (sklearn.decomposition()) → extracting eigenvector 
 
 from graphviz import Digraph
 
