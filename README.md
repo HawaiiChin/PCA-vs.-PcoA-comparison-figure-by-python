@@ -1,6 +1,7 @@
 # PCA-vs.-PcoA-comparison-figure-by-python
 #overlapped feature: matrix decomposition plus distinguished: co-variance vs. distance matrix (sklearn.decomposition()) → extracting eigenvector 
 #distinguished feature：PCA hypothesis of linear data pattern; PCoA requires inter-sample Euclidean distance (in contrast to Geodesic Distance bio ISOMAP of manifold learning) with flexibility for data patterns 
+# key calculation step to tranform eigen value into matrix: det(A - eigenvalue*I) = 0 to find eigenvector 
 
 from graphviz import Digraph
 
