@@ -2,7 +2,7 @@
 #overlapped feature: matrix decomposition plus distinguished: co-variance vs. distance matrix (sklearn.decomposition()) → extracting eigenvector 
 #distinguished feature：PCA hypothesis of linear data pattern; PCoA requires inter-sample Euclidean distance (in contrast to Geodesic Distance bio ISOMAP of manifold learning) with flexibility for data patterns 
 # key calculation step to tranform eigen value into matrix: det(A - eigenvalue*I) = 0 to find eigenvector 
-
+# eigenvectors as principal components for projection of samples for dimension reduction--consider dimension reduction in dot products by projection. 
 from graphviz import Digraph
 
 dot = Digraph("PCA_vs_PCoA_Workflow", format="png")
